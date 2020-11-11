@@ -96,5 +96,14 @@ $(document).ready(function() {
 
     }    
    
-    
+    $("#exampleFormControlTextarea9").val(localStorage.getItem('userInput1'));
+    $("#exampleFormControlTextarea10").val(localStorage.getItem('userInput2'));
+    $("#exampleFormControlTextarea11").val(localStorage.getItem('userInput3'));
+    $("#exampleFormControlTextarea12").val(localStorage.getItem('userInput4'));
+    $("#exampleFormControlTextarea13").val(localStorage.getItem('userInput5'));
+    $("#exampleFormControlTextarea14").val(localStorage.getItem('userInput6'));
+    $("#exampleFormControlTextarea15").val(localStorage.getItem('userInput7'));
+    $("#exampleFormControlTextarea16").val(localStorage.getItem('userInput8'));
+    $("#exampleFormControlTextarea17").val(localStorage.getItem('userInput9'));
+
 });
