@@ -80,4 +80,21 @@ $(document).ready(function() {
         function colorCode() {
 
             
-          
+            if(i < currentHour) {
+                thisHour.addClass("past");
+            }
+            else if (i > currentHour) {
+                thisHour.addClass("future");
+            }
+            else {
+                thisHour.addClass("present");
+                
+            }
+        }
+            
+        colorCode();
+
+    }    
+   
+    
+});
