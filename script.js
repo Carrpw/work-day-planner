@@ -5,4 +5,10 @@ $(document).ready(function() {
 
     
 
-   
+    $("#boop1").on("click", function() {
+        var userInput1 = $("#exampleFormControlTextarea9").val();
+            if(userInput1 === ""){
+                alert("No event listed this hour.");
+            }
+        localStorage.setItem('userInput1', userInput1);
+    });
