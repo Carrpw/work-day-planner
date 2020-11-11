@@ -70,4 +70,14 @@ $(document).ready(function() {
     });
     
 
-    
+    for (var i = 9; i < 18; i++) {
+
+        var loopNumber = "#exampleFormControlTextarea" + i.toString();
+        var thisHour = $(loopNumber);
+       
+        var currentHour = moment().format("H");
+        
+        function colorCode() {
+
+            
+          
