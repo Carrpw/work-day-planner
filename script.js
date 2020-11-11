@@ -1,0 +1,1 @@
+var time = moment().hour("H");
